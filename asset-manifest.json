@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Vinted-copy-frontend/static/css/main.001cb8bd.chunk.css",
-    "main.js": "/Vinted-copy-frontend/static/js/main.9de9fa5d.chunk.js",
-    "main.js.map": "/Vinted-copy-frontend/static/js/main.9de9fa5d.chunk.js.map",
+    "main.js": "/Vinted-copy-frontend/static/js/main.d39ca68e.chunk.js",
+    "main.js.map": "/Vinted-copy-frontend/static/js/main.d39ca68e.chunk.js.map",
     "runtime-main.js": "/Vinted-copy-frontend/static/js/runtime-main.8e926876.js",
     "runtime-main.js.map": "/Vinted-copy-frontend/static/js/runtime-main.8e926876.js.map",
     "static/js/2.5d0de5f0.chunk.js": "/Vinted-copy-frontend/static/js/2.5d0de5f0.chunk.js",
     "static/js/2.5d0de5f0.chunk.js.map": "/Vinted-copy-frontend/static/js/2.5d0de5f0.chunk.js.map",
     "index.html": "/Vinted-copy-frontend/index.html",
-    "precache-manifest.607fd6b03bb62101a8a003fb83468507.js": "/Vinted-copy-frontend/precache-manifest.607fd6b03bb62101a8a003fb83468507.js",
+    "precache-manifest.750f3932dbd3a63bf75654142dc7b4fc.js": "/Vinted-copy-frontend/precache-manifest.750f3932dbd3a63bf75654142dc7b4fc.js",
     "service-worker.js": "/Vinted-copy-frontend/service-worker.js",
     "static/css/main.001cb8bd.chunk.css.map": "/Vinted-copy-frontend/static/css/main.001cb8bd.chunk.css.map",
     "static/js/2.5d0de5f0.chunk.js.LICENSE.txt": "/Vinted-copy-frontend/static/js/2.5d0de5f0.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.8e926876.js",
     "static/js/2.5d0de5f0.chunk.js",
     "static/css/main.001cb8bd.chunk.css",
-    "static/js/main.9de9fa5d.chunk.js"
+    "static/js/main.d39ca68e.chunk.js"
   ]
 }
