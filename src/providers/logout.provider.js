@@ -29,7 +29,7 @@ function LogoutProvider({ children }) {
         localStorage.removeItem("token");
         localStorage.removeItem("appName-user");
         setToken(null);
-        history.replace("/");
+        history.replace("/Vinted-copy-frontend/");
       } else {
         // console.log("response not ok");
         console.log("response not ok, logout", token);

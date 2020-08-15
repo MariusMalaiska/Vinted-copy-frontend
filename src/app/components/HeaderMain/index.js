@@ -117,11 +117,11 @@ function HeaderMain() {
                 <img alt="" className="Header--icon" src={bell}></img>
                 <img alt="" className="Header--icon" src={heart}></img>
                 <img alt="" className="Header--user--img" src={avatar}></img>
-                <Button onClick={logout}>
+                <Button className="logout--btn" onClick={logout}>
                   {userName || localStorage.getItem("appName-user")}
                 </Button>
                 <Button color="green" to={`/createadvert`}>
-                  įkelti deabužį
+                  įkelti drabužį
                 </Button>
               </div>
             )}

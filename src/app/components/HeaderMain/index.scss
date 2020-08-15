@@ -37,6 +37,13 @@
         align-items: center;
         width: 100%;
       }
+
+      .logout--btn:hover:after {
+        content: " atsijungti";
+        position: absolute;
+        font-size: 10px;
+        bottom: 0;
+      }
     }
     form {
       width: 100%;

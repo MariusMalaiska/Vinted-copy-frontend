@@ -127,7 +127,7 @@ const CreateAdvert = () => {
           {/* ------------------------Condition------------------------ */}
 
           <label className="Label" htmlFor="condition">
-            Buklė
+            Būklė
           </label>
           <select
             className="Input Condition"
