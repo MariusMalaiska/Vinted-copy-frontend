@@ -101,7 +101,15 @@ function HeaderMain() {
                   Registruotis | Prisijungti
                 </Button>
                 {modal === true && <LoginModal />}
-                <Button color="green">Parduok dabar</Button>
+                {token === null ? (
+                  <Button color="green" to={`/register`}>
+                    Parduok dabar
+                  </Button>
+                ) : (
+                  <Button color="green" to={`/createadvert`}>
+                    Parduok dabar
+                  </Button>
+                )}
               </div>
             ) : (
               <div className="Header--item">
