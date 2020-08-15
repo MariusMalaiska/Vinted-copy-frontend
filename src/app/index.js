@@ -44,7 +44,7 @@ const App = () => {
         <HeaderMain />
         <HeaderFollowing />
         <Switch>
-          <Route exact path="/" Component={Home}>
+          <Route exact path="/Vinted-copy-frontend/" Component={Home}>
             <Home />
           </Route>
           <Route exact path="/useradverts" Component={UserAdverts}>
