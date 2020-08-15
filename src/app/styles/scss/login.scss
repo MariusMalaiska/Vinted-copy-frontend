@@ -1,0 +1,56 @@
+.SignIn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--gray);
+}
+
+.SignIn-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 61px 65px 18px 65px;
+  margin-top: 172px;
+  margin-bottom: 357px;
+  width: 672px;
+  min-height: 376px;
+  background-color: var(--main-gray);
+  border-radius: 10px;
+
+  .Label {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: var(--white-gray);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  form {
+    width: 100%;
+    .Input {
+      font-size: 24px;
+      line-height: 28px;
+      width: 541px;
+      height: 50px;
+      margin: 15px 0;
+      border-radius: 5px 0px 5px 0px;
+      border: unset;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .Password {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-x: 480px;
+    }
+
+    .Button {
+      display: flex;
+      align-self: center;
+      margin: 20px auto;
+    }
+  }
+}

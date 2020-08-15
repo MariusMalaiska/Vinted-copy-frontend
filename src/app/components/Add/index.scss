@@ -1,0 +1,55 @@
+.Add {
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  margin: 20px 0px 20px 0px;
+  background: var(--main-gray);
+  box-sizing: border-box;
+  padding: 20px;
+
+  .Add-link {
+    text-decoration: none;
+    color: var(--white);
+  }
+}
+
+.Add-Image {
+  height: 100%;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -60px;
+}
+
+.Add-Info {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  min-height: 168px;
+  //   height: 100%;
+  width: 270px;
+  color: var(--white-gray);
+  background-color: var(--gray);
+
+  //   .Title {
+  //     font-size: 24px;
+  //     line-height: 28px;
+  //   }
+
+  .module {
+    width: 100%;
+    margin: 0 0 1em 0;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .module p {
+    margin: 0;
+  }
+
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}

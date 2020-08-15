@@ -1,0 +1,63 @@
+.Item--card {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  margin-top: 2rem;
+  background-color: var(--white);
+  cursor: pointer;
+  .Add-link {
+    text-decoration: none;
+    color: var(--white-gray);
+  }
+  .User--info {
+    display: flex;
+    align-content: center;
+    padding: 7px;
+    box-sizing: border-box;
+    .User--img {
+      border-radius: 100%;
+      margin-right: 5px;
+      height: 20px;
+      width: 20px;
+    }
+    .User--name {
+      display: flex;
+      align-items: center;
+      color: lightgrey;
+      margin: unset;
+    }
+  }
+  .Item--img {
+    object-fit: cover;
+    min-height: 280px;
+    height: 100%;
+    width: 100%;
+  }
+  &--price {
+    font-weight: bold;
+    font-size: 1.17rem;
+    &:after {
+      content: " €";
+    }
+  }
+  .Price + * {
+    font-style: italic;
+  }
+  &--brand {
+    font-weight: bold;
+  }
+  .Card--price {
+    font-weight: 600;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Item--card {
+    width: 155px;
+    .Item--img {
+      min-height: 155px;
+    }
+  }
+}

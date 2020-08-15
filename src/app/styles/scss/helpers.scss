@@ -1,0 +1,40 @@
+:root {
+  --primary: #a3a3a3;
+  --white: #fff;
+  --darkGray: #eaedee;
+  --darkGray-secondary: #b7b7b7;
+  --lightGray: #fafafa;
+  --green: #0ab0ba;
+
+  --background-gray: #191a1b;
+  --main-gray: #242626;
+  --light-gray: #3a3b3c;
+  --white-gray: #bec2c9;
+  --yellow: #fff0ae;
+  --light-blue: #a7e7f0;
+}
+
+body {
+  margin: 0;
+  // background-color: var(--background-gray);
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  .Container {
+    padding: unset;
+  }
+}

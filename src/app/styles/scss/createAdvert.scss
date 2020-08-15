@@ -1,0 +1,107 @@
+.CreateAdvert {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .CreateAdvert-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 61px 65px 18px 65px;
+    margin-top: 172px;
+    margin-bottom: 357px;
+    width: 672px;
+    min-height: 376px;
+    // background-color: var(--main-gray);
+    border-radius: 10px;
+
+    .Label {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      color: var(--white-gray);
+      // font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    form {
+      width: 100%;
+      .Input {
+        width: 100%;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 1px solid var(--white-gray);
+        color: var(--white-gray);
+      }
+      .Button {
+        display: flex;
+        align-self: center;
+        margin: 20px auto;
+      }
+    }
+
+    .Radio-buttons {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0px;
+      //   background-color: red;
+    }
+
+    .Radio-buttons input[type="radio"] {
+      opacity: 0;
+      position: fixed;
+      padding: 20px;
+      //   width: 0;
+    }
+
+    .Radio-buttons label {
+      display: inline-block;
+      background-color: var(--white-gray);
+      color: var(--main-gray);
+      padding: 10px 20px;
+      font-family: sans-serif, Arial;
+      font-size: 16px;
+      border: 2px solid var(--main-gray);
+      border-radius: 5px 0px 5px 0px;
+    }
+
+    .Radio-buttons input[type="radio"]:checked + label {
+      background-color: #bfb;
+      border-color: #4c4;
+    }
+    // .Buy input[type="radio"]:checked + label {
+    //   background-color: #bfb;
+    //   border-color: #4c4;
+    // }
+    .Radio-buttons input[type="radio"]:focus + label {
+      border: 2px solid var(--main-gray);
+    }
+    .Radio-buttons label:hover {
+      background-color: #dfd;
+    }
+    .Price::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    .Picture::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+    .Picture::before {
+      content: "Įkelti nuotraukas";
+      display: inline-block;
+      background-color: var(--white-gray);
+      color: white;
+      border-radius: 3px;
+      padding: 5px 8px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15px;
+      width: 100%;
+      height: 40px;
+    }
+  }
+}

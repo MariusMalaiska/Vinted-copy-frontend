@@ -1,0 +1,73 @@
+.App-header {
+  display: none;
+  // display: flex;
+  // position: relative;
+  // width: 100%;
+  // height: 70px;
+  // background: var(--main-gray);
+  // box-sizing: border-box;
+  // padding: 0px 40px;
+
+  // ul {
+  //   display: flex;
+  //   padding-inline-start: unset;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   width: 100%;
+
+  //   li {
+  //     list-style: none;
+  //     .Logo {
+  //       width: 60px;
+  //     }
+  //   }
+  // }
+}
+.App-search-header {
+  display: none;
+  // display: flex;
+  // position: relative;
+  // width: 100%;
+  // height: 70px;
+  // background: var(--main-gray);
+  // box-sizing: border-box;
+  // padding: 0px 40px;
+
+  // ul {
+  //   display: flex;
+  //   padding-inline-start: unset;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   width: 100%;
+
+  //   li {
+  //     list-style: none;
+  //     .Search-input {
+  //       border-radius: 5px 0px 5px 0px;
+  //       padding: 7px;
+  //       margin-right: 20px;
+  //     }
+  //   }
+  // }
+}
+
+.Adverts {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 55px;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Drop-down {
+  position: relative;
+  display: inline-block;
+}
+
+@media screen and (max-width: 992px) {
+  .Adverts {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,44 @@
+.Button {
+  margin-left: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid #0ab0ba;
+  border-radius: 5px;
+  color: #0ab0ba;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.Button--green {
+  background-color: #0ab0ba;
+  color: white;
+}
+.Button--transparent {
+  background-color: transparent;
+}
+
+.Button--none {
+  border: none;
+  color: #a0a0a0;
+}
+
+.Button--min--content {
+  width: min-content;
+  padding: 10px;
+}
+
+.Button--outline {
+  background: transparent;
+}
+
+.Vertical-spacing {
+  margin-top: 10px;
+}

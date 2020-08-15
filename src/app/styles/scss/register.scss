@@ -1,0 +1,36 @@
+.Register {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  .register__container {
+    width: 320px;
+    margin-top: 60px;
+    .input {
+      width: 100%;
+      margin: 20px 0;
+      border: none;
+      border-bottom: 1px solid var(--darkGray);
+      color: var(--darkGray);
+    }
+    .validation {
+      font-size: 13px;
+    }
+    .button {
+      margin-top: 30px;
+      background-color: transparent;
+      border: 1px solid #0ab0ba;
+      border-radius: 5px;
+      color: #0ab0ba;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    .signin {
+      background-color: #0ab0ba;
+      color: white;
+    }
+  }
+}
