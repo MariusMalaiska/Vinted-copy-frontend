@@ -14,7 +14,7 @@ function RegisterProvider({ children }) {
       setIsLoading(true);
 
       try {
-        const response = await fetch(`${API_URL}/v1/user/register`, {
+        const response = await fetch(`${API_URL}/user/register`, {
           method: "POST",
           body: JSON.stringify({
             nickName,

@@ -36,7 +36,11 @@ function HeaderMain() {
       <div className="Container">
         <ul className="Header--unordered-list">
           <li>
-            <Link className="Add-link" to={`/`} onClick={closeModal}>
+            <Link
+              className="Add-link"
+              to={"/Vinted-copy-frontend/"}
+              onClick={closeModal}
+            >
               <img className="Logo" src={logo} alt="logo" />
             </Link>
           </li>
@@ -65,7 +69,7 @@ function HeaderMain() {
                 className="Header--burger"
                 color="none"
                 onClick={toggleMobileMenu}
-                to="/"
+                to="/Vinted-copy-frontend/"
               >
                 <img
                   className="Toggle--burger--menu"

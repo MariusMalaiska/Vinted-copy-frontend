@@ -36,7 +36,7 @@ function LoginProvider({ children }) {
           localStorage.setItem("appName-user", json.nickName);
           setUserName(json.nickName);
           // console.log(json.nickName);
-          history.replace("/");
+          history.replace("/Vinted-copy-frontend/");
         } else {
           setError(response);
         }
