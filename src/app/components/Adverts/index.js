@@ -2,6 +2,7 @@ import React from "react";
 import "./index.scss";
 import { Link } from "react-router-dom";
 import avatar from "../../styles/images/avatar.png";
+// import SizeData from "../../json/size.json";
 // import { SingleContext } from "../../../providers/single.provider";
 
 function Adverts({
@@ -10,24 +11,29 @@ function Adverts({
   onClick,
   isfavorite,
   id,
-  key,
   nickName,
   user,
   img,
   price,
   size,
-  width,
-  height,
+  category,
   brand
 }) {
   // const { getSingleItem } = useContext(SingleContext);
-  //   console.log(user);
+
+  // const obj = Object.values(
+  //   Object.keys(SizeData.man.clothes.International).find(key => key === "M")
+  // );
+  // console.log(
+  //   SizeData.man.clothes.International.M.EU
+  // SizeData.man.clothes.International
+  // );
   return (
     <div className="Item--card">
       {/* @click="$router.push({ path: 'item/' + id }) */}
       <div className="User--info">
         <img className="User--img" alt="user" src={avatar} />
-        <h6 class="User--name">{user}</h6>
+        <h6 className="User--name">{user}</h6>
       </div>
       <Link className="Add-link" to={`/content/${id}`}>
         <div>
@@ -36,7 +42,11 @@ function Adverts({
         <div>
           <div className="Card--price">{price + " €"}</div>
           <div className="Text--muted">
-            {size} / {width} / {height}
+            {/* {size} / {SizeData} / {height} */}
+            {size}
+            {/* {(category === "man" &&
+              SizeData.man.clothes.International.size.EU) ||
+              SizeData.man.shoes.eu.size.UK} */}
           </div>
           <div className="Card--brand">{brand}</div>
         </div>

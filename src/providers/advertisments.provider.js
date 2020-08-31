@@ -25,7 +25,7 @@ function AdvertsProvider({ children }) {
       if (!items.ok) throw items.json();
       items = await items.json();
       setAdverts(items.items);
-      console.log(items.items);
+      // console.log(items.items);
       // await createPaginator(items.count, paginationAll);
       // await drawItemsIn(items.items, displayAllAdverts);
     } catch (e) {

@@ -20,8 +20,8 @@ function CreateAdvertProvider({ children }) {
       condition,
       color,
       brand,
-      height,
-      width,
+      // height,
+      // width,
       size,
       price,
       picture
@@ -36,8 +36,8 @@ function CreateAdvertProvider({ children }) {
       formData.append("condition", condition);
       formData.append("color", color);
       formData.append("brand", brand);
-      formData.append("height", height);
-      formData.append("width", width);
+      // formData.append("height", height);
+      // formData.append("width", width);
       formData.append("price", price);
       formData.append("size", size);
       formData.append("item-picture", picture);

@@ -18,8 +18,9 @@ const Home = () => {
             user={item.user.nickName}
             price={item.price}
             size={item.size}
-            width={item.width}
-            height={item.height}
+            category={item.category}
+            // width={item.width}
+            // height={item.height}
             brand={item.brand}
           ></Adverts>
         ))}
