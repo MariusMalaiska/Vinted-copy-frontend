@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Vinted-copy-frontend/static/css/main.c47fe235.chunk.css",
-    "main.js": "/Vinted-copy-frontend/static/js/main.32219f4a.chunk.js",
-    "main.js.map": "/Vinted-copy-frontend/static/js/main.32219f4a.chunk.js.map",
+    "main.css": "/Vinted-copy-frontend/static/css/main.f7258386.chunk.css",
+    "main.js": "/Vinted-copy-frontend/static/js/main.84453f7d.chunk.js",
+    "main.js.map": "/Vinted-copy-frontend/static/js/main.84453f7d.chunk.js.map",
     "runtime-main.js": "/Vinted-copy-frontend/static/js/runtime-main.8e926876.js",
     "runtime-main.js.map": "/Vinted-copy-frontend/static/js/runtime-main.8e926876.js.map",
-    "static/js/2.5d0de5f0.chunk.js": "/Vinted-copy-frontend/static/js/2.5d0de5f0.chunk.js",
-    "static/js/2.5d0de5f0.chunk.js.map": "/Vinted-copy-frontend/static/js/2.5d0de5f0.chunk.js.map",
+    "static/js/2.953ec9cf.chunk.js": "/Vinted-copy-frontend/static/js/2.953ec9cf.chunk.js",
+    "static/js/2.953ec9cf.chunk.js.map": "/Vinted-copy-frontend/static/js/2.953ec9cf.chunk.js.map",
     "index.html": "/Vinted-copy-frontend/index.html",
-    "precache-manifest.69b7c2a157ce70b3280a506a81855233.js": "/Vinted-copy-frontend/precache-manifest.69b7c2a157ce70b3280a506a81855233.js",
+    "precache-manifest.816ec8be9034b5253aecd605a256ac8f.js": "/Vinted-copy-frontend/precache-manifest.816ec8be9034b5253aecd605a256ac8f.js",
     "service-worker.js": "/Vinted-copy-frontend/service-worker.js",
-    "static/css/main.c47fe235.chunk.css.map": "/Vinted-copy-frontend/static/css/main.c47fe235.chunk.css.map",
-    "static/js/2.5d0de5f0.chunk.js.LICENSE.txt": "/Vinted-copy-frontend/static/js/2.5d0de5f0.chunk.js.LICENSE.txt",
+    "static/css/main.f7258386.chunk.css.map": "/Vinted-copy-frontend/static/css/main.f7258386.chunk.css.map",
+    "static/js/2.953ec9cf.chunk.js.LICENSE.txt": "/Vinted-copy-frontend/static/js/2.953ec9cf.chunk.js.LICENSE.txt",
     "static/media/bell.png": "/Vinted-copy-frontend/static/media/bell.0cec0c5c.png",
     "static/media/dress.svg": "/Vinted-copy-frontend/static/media/dress.fb4f923f.svg",
     "static/media/email.png": "/Vinted-copy-frontend/static/media/email.7ba322ba.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8e926876.js",
-    "static/js/2.5d0de5f0.chunk.js",
-    "static/css/main.c47fe235.chunk.css",
-    "static/js/main.32219f4a.chunk.js"
+    "static/js/2.953ec9cf.chunk.js",
+    "static/css/main.f7258386.chunk.css",
+    "static/js/main.84453f7d.chunk.js"
   ]
 }
